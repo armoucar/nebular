@@ -486,7 +486,7 @@ For direct children of [base](#structure) playground directories, it generates f
 
 Each component, directive or service declaration found, will be declared in the closest module.
 Also for each component which has a routing module in directory schematic adds a route. Route path set to file name without extension.
-If a component is just a helper and shouldn't has it's own route, you can put in a subdirectory (typically './components').
+If a component is just a helper and shouldn't have it's own route, you can put in a subdirectory (typically './components').
 
 Each module found will be added as a lazy route for closest parent module. Route path will be set to a module directory name.
 
